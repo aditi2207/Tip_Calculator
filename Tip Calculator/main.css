@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(to left, #8E0E00, #1F1C18);
+}
+
+.container{
+    width:450px !important;
+    height:550px !important;
+    background-color: white;
+    margin:100px auto;
+    border-radius: 20px;
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+}
+
+h3{
+    margin-top: 0px;
+    text-align: center;
+    background-color: #1F030C;
+    width: 100%;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    margin-bottom: 0%;
+    color: white;
+}
+
+.calculator{
+    margin:10px;
+}
+
+#calc{
+    background-color: #AD133A;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#calc:hover{
+    background-color: #4c2827;
+}
+
+#totaltip{
+    text-align: center;
+    font-size: 30px;
+}
+
+#totaltip:before {
+    content: "Tip amount";
+    font-size: 20px !important;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
